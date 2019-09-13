@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dynamo-os-1",
+  "private_key_id": "e50f7f2c372a722d5e3b76dcc5f3445020758f56",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCx1K8mz7ONciPn\n2taeG0lrIYCtGTB6YHESZeypnvYGOpDTH8bo82rc4eKIYanp/RGl8faE8Wtxe3gP\nOECaYLd51RJ/JPsMrbT2dp74NiwJPHgGb9FgPaxtGOT9dkvNcJDpn6J3Bi/ni1Sc\nuHuGW1FRrn3GgorzH3GZnblxR5Vi3cd348p4/2p5VsZf51RAsSiUqaut1bpxNxLG\nwlKAToQ4/TK1PC7LHlRz3YYwMv90DCmfxPVMirbVSjiBmYhtlrDrmI1uTqv8Risf\n1BKTwRQf9kaKfg1dTfrlWkVTcJx50UzL1LaB/ru0QigRaeRDOEUiegWalD6fwgEI\n+oV/GYnTAgMBAAECggEAJADX70co5o+/1j63qe4DWMXBLAqIBpbE/cEV/6d3zv4H\neT8bQemabprrBsqjIIUEkDDjRLouEx04yvgMGFVRgECTzJsbms8GbsnIWJ97HemY\nsVDtNot1/+aE4g4TvcW3CR2xQmDFzR6n5EzzcVnGpn9p5oligWOR19SXiWhBRfEj\ndwZaoNAE9y2jH/R38DKIYUosN3HNJnM/ajeroDUh8woFuWCVad0yRxSW5DP7kGEl\nCSG7LQVs0eI63AgJPiwAvqT8lRdnc3cfiwtBHg0wwlU4WlP338B88b4eaiicAbUS\nACeS99dEOBk7rYl2TpufbPelbbkHYKnCDTe5DM4AtQKBgQDa7hAFb3Dg+12HpqHu\nKBgUCurRFTsTGaAC0C2bsvvtH3wnObwwb/fZdoBeZl8bU5Co4LqvX/oKCqcsMXzC\n18DjmxTXXGY1DCPaLCkirY7gY5h+oXQejoErLJ6oTO2Ntj18akj9qQP7HiIUu/p3\n12FyUmOnnewvrMOr2ShUH6hTvwKBgQDP8RnSlBByVe/cxGlV6j7BNiT3Xt31VSHR\nAhaJGOuiqbdcjB2b2jyPOTwzvrKVuC+I/6jcxJYeb5GywXI/bm61BU/4cG3BTv2c\nDL5zHsTvanvYwzUDFNRhZSadJT8cfrxOxT7BtIAA/eXjwnY/NHA1a/rilhJzw+xx\neNVNu/R+7QKBgQCqI0Y6Ix/zCAXorLu9LFWCBfX0pO4y6sAqT4SSMqeL4OMITNsO\nPYW871XVhvM0dl2+kF8keY8EjMDcHF1bwnY5q8SnlTwsz5FxNM6HD6Awi9Xv2yM1\nuANz/QoTuy0F63GfJa4xy063sfREbs24op4tTQ/7LERnzHiILYwkzDFxWwKBgGEI\nixo+yaXxACsu5FCZLIuQrpNYi47OGSelJ8r1/A89zzi6kZ6GqjfTZ4pl9IP1HQl6\n89uBSOQPABhAOQXsjHCgd/7gx/aq26GUONMTiqaGNCCkhvpXH/wK7YfrN5YeddT0\nKiLODeVolXxA5Fj+KVZkewB9M0MeLBmPX0oU6TTJAoGBAIwuxTp8+UkDDHU43f2C\n3JOTkGv6fRrE5MXEo7oshWRWSfai8iT1z9VTfDau9BR7C4RrlwhCpxVpaoLiTOjd\ntbGiQzlUJw7SugBj3rgAPdr+tiT/RXs31GHDqJo090fcQjfDM/xrE47FKFUs3aWr\n0fqR+aMZrAv6Bp1W/GsBsGKK\n-----END PRIVATE KEY-----\n",
+  "client_email": "dynamo-os-1@appspot.gserviceaccount.com",
+  "client_id": "112056822447390734582",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dynamo-os-1%40appspot.gserviceaccount.com"
+}
