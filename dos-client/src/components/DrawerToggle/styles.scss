@@ -1,0 +1,32 @@
+@import '../../globals/styles/variables';
+
+.drawer-toggle {
+  position: relative;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px 40px 20px 20px;
+  text-align: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  cursor: pointer;
+
+  &.menu {
+    @extend .flexAlignCenterCenter;
+    overflow: hidden;
+    padding: 0;
+    height: auto;
+    background: none;
+    outline: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  &.notifications {
+    width: 20px;
+  }
+}

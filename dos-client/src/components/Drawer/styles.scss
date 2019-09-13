@@ -1,0 +1,42 @@
+@import '../../globals/styles/variables';
+
+.drawer {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  height: 100vh;
+  width: calc(100% - 60px);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: $white;
+  transition: transform $effectSpeedSlow cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition: transform $effectSpeedSlow cubic-bezier(0.23, 1, 0.32, 1);
+
+  &[role='menu'] {
+    left: 0;
+    max-width: 270px;
+    box-shadow: 1px 0 20px 0 rgba($black, 0.1);
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+
+  &[role='notifications'] {
+    right: 0;
+    max-width: 450px;
+    box-shadow: -1px 0 20px 0 rgba($black, 0.15);
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+
+  &.open {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    z-index: 1001;
+  }
+
+  .title-tag {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}

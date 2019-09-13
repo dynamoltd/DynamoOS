@@ -1,4 +1,6 @@
+import Backdrop from './Backdrop';
+import Drawer from './Drawer';
+import DrawerToggle from './DrawerToggle';
 import Navbar from './Navbar';
-import Sidebar from './Sidebar';
 
-export { Navbar, Sidebar };
+export { Backdrop, Drawer, DrawerToggle, Navbar };

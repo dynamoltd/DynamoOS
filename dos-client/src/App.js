@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './globals/styles/variables.scss';
 import './globals/styles/main.scss';
 
 // Pages
@@ -9,6 +8,7 @@ import login from './pages/login';
 import signup from './pages/signup';
 
 // Components
+import { Navbar } from './components';
 
 function App() {
   return (
