@@ -9,14 +9,6 @@ class Drawer extends Component {
     let drawerClasses = 'drawer';
     if (show) drawerClasses = 'drawer open';
 
-    // TODO: Consider turning this into a global helper function
-    // const pluralize = (count, noun, suffix = 's') => `${count} ${noun}${count !== 1 ? suffix : ''}`;
-
-    // let projectCount;
-    // if (projects.status.requested.projects) {
-    //   projectCount = projects.ordered.projects.length;
-    // }
-
     return (
       <div className={drawerClasses} role='menu'>
         <div className='title-tag content-below'>Global Menu</div>
@@ -27,7 +19,7 @@ class Drawer extends Component {
             </div>
             <div>
               <div className='global-menu-link-title'>Projects</div>
-              <div className='global-menu-link-description'>7</div>
+              <div className='global-menu-link-description'>7 Instances</div>
             </div>
           </a>
           <a href='/' className='global-menu-link'>
@@ -36,7 +28,7 @@ class Drawer extends Component {
             </div>
             <div>
               <div className='global-menu-link-title'>Analytics</div>
-              <div className='global-menu-link-description'>1 Analytics instances</div>
+              <div className='global-menu-link-description'>3 instances</div>
             </div>
           </a>
         </div>

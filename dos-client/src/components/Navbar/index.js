@@ -14,15 +14,25 @@ class Navbar extends Component {
   };
 
   drawerOpenHandler = () => {
-    this.setState(prevState => {
-      return { drawerOpen: !prevState.drawerOpen };
-    });
+    this.setState(
+      prevState => {
+        return { drawerOpen: !prevState.drawerOpen };
+      },
+      () => {
+        setTimeout(() => {
+          document.querySelector('.backdrop').style.opacity = '1';
+        }, 200);
+      }
+    );
   };
 
-  drawerCloseHandler = () => {
-    this.setState({
-      drawerOpen: false
-    });
+  drawerCloseHandler = event => {
+    event.target.style.opacity = '0';
+    setTimeout(() => {
+      this.setState({
+        drawerOpen: false
+      });
+    }, 300);
   };
 
   render() {
